@@ -14,10 +14,10 @@ hero :
       link: https://github.com/wb63318/Api_Gen_2.git
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: REST 
+    details: Supports RestFul Endpoints
+  - title: GraphQl
+    details: Perfectly handles GraphQl
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 

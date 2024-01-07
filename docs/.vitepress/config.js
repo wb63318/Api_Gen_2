@@ -8,7 +8,7 @@ export default {
           ],
         sidebar:[
             {
-                text: 'Side Bar ',
+                text: 'Documentation ',
                 
                 items:[
                    
