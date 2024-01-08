@@ -9,7 +9,7 @@ This is how the syntax looks like:
 public Task<SampleEntry[]> Handle(<Query class or record>)
 ```
 
-The function name should be `Handle` and it should take an instance of the query class or record as an argument
+The function name should be `Handle` and it should take an instance of the query class or record as a parameter
 Let's take some examples:
 
 

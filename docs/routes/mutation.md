@@ -24,7 +24,7 @@ In order to generate a mutation with CAI, we need to use the `[Mutation]` annota
 public record AddSample(string text);
 ```
 
-CAI generates the query above with name `allSamples` as seen in the image below
+CAI generates the query above with name `addSample` as seen in the image below
 
 <p>
     <img src ="../pics/addsample.png" alt="image">
