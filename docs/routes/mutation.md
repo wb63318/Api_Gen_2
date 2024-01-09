@@ -3,7 +3,7 @@
 # GraphQl
 
 ### Mutations
-In order to generate a mutation with CAI, we need to use the `[Mutation]` annotation
+In order to generate a mutation with CAI, we need to use the `[Mutation]` attribute
 ```c#
 [Mutation<T>(mutationName)]
 ```

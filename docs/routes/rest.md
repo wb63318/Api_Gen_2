@@ -1,7 +1,7 @@
 <!-- # GraphQl -->
 
 # REST
-In order to generate a RESTful endpoint with CAI, we need to use the `[Rest]` annotation
+In order to generate a RESTful endpoint with CAI, we need to use the `[Rest]` attribute
 ```c#
 [Rest<T>(apiPath, httpVerb)]
 

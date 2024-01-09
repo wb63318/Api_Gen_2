@@ -3,7 +3,7 @@
 # GraphQl
 
 ### Queries
-In order to generate a query with CAI, we need to use the `[Query]` annotation
+In order to generate a query with CAI, we need to use the `[Query]` attribute
 ```c#
 [Query<T>(queryName)]
 ```

@@ -33,11 +33,11 @@ public static Task<SampleEntry[]> Handle(GetAllSamples input){
 
 ```c#
 //The mutation
-[Mutation<string>()]
+[Mutation<CallResult>()]
 public record AddSample(string text);
 
 //Its handler
-public static Task<SampleEntry[]> Handle(AddSample input){
+public static Task<CallResult> Handle(AddSample input){
     // implementation goes here
 }
 ```
@@ -47,7 +47,7 @@ public static Task<SampleEntry[]> Handle(AddSample input){
 
 ```c#
 //RESTful GET
-[Rest<Profile[]>("/api/entries/get", Verb.Get)]
+[Rest<SampleEntry[]>("/api/entries/get", Verb.Get)]
 public record GetAllSamples(string text, int num);
 
 //Its handler
@@ -61,11 +61,11 @@ public static Task<SampleEntry[]> Handle(GetAllSamples input){
 
 ```c#
 //RESTful POST
-[Rest<Profile[]>("/api/entries/add", Verb.Post)]
+[Rest<CallResult>("/api/entries/add", Verb.Post)]
 public record AddSample(string text);
 
 //Its handler
-public static Task<SampleEntry[]> Handle(AddSample input){
+public static Task<CallResult> Handle(AddSample input){
     // implementation goes here
 }
 ```

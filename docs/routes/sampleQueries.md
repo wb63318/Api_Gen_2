@@ -13,7 +13,7 @@
 ## 2. Sample Queries
 - This contains a list of records which are defined as both `RESTFUL API ENDPOINTS` and `GRAPHQL Queries/Mutations`  
 - All `Endpoints` are annotated with an array of **SampleEntries**
-- `Endpoint` routes are also included in the annotation 
+- `Endpoint` routes are also included in the attribute 
 - It return an array of sample entries
 
 
