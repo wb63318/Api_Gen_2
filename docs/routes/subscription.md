@@ -1,7 +1,7 @@
 ---
 prev:
   text: 'Handler'
-  link: '/routes/subscription'
+  link: '/routes/handler'
 
 next: 
   text: 'Rest'
