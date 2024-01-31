@@ -18,7 +18,9 @@ export default {
           { text: "GraphQl (Mutation)", link: "/routes/mutation" },
           { text: "GraphQl (Subscription)", link: "/routes/subscription" },
           { text: "GraphQl (Handler)", link: "/routes/handler" },
+          { text: "GraphQl (Subscription)", link: "routes/subscription"},
           { text: "REST", link: "/routes/rest" },
+          
           //   { text: "Sample Queries", link: "/routes/sampleQueries" },
           //   { text: "Sample Handler", link: "/routes/sampleHandler" },
           //   { text: "Sample Examples", link: "/routes/sampleExamples" },
