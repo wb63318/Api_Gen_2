@@ -5,6 +5,7 @@ export default {
     nav: [
       { text: "Home", link: "/" },
       { text: "Documentation", link: "/routes/intro.md" },
+      { text: "Release Notes *", link: "/routes/intro.md" },
     ],
     sidebar: [
       {
@@ -13,8 +14,9 @@ export default {
         items: [
           { text: "Intro", link: "/routes/intro" },
           { text: "How it works", link: "/routes/howitworks" },
-          { text: "GraphQl", link: "/routes/graphql" },
+          { text: "GraphQl (Query)", link: "/routes/graphql" },
           { text: "GraphQl (Mutation)", link: "/routes/mutation" },
+          { text: "GraphQl (Subscription)", link: "/routes/subscription" },
           { text: "GraphQl (Handler)", link: "/routes/handler" },
           { text: "REST", link: "/routes/rest" },
           //   { text: "Sample Queries", link: "/routes/sampleQueries" },
