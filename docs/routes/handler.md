@@ -70,7 +70,7 @@ public static Task<CallResult> Handle(AddSample input){
 }
 ```
 
-#### Example 5
+<!-- #### Example 5
 
 ```c#
 //The Subscription
@@ -99,4 +99,4 @@ public record SampleCreated(long sampleId);
      await topicEventSender.SendAsync($"sampleCreated_{input.id}", sample);
      return sample;
  }
-```
+``` -->
