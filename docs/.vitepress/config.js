@@ -18,7 +18,10 @@ export default {
           { text: "GraphQl (Mutation)", link: "/routes/mutation" },
           { text: "GraphQl (Subscription)", link: "/routes/subscription" },
           { text: "GraphQl (Handler)", link: "/routes/handler" },
-          // { text: "GraphQl (Subscription)", link: "routes/subscription"},
+          { text: "GraphQl (Pagination)", link: "/routes/paging"},
+          { text: "GraphQl (Projection)", link: "/routes/projection"},
+          { text: "GraphQl (Filtering)", link: "/routes/filtering"},
+          { text: "GraphQl (Sorting)", link: "/routes/sorting"},
           { text: "REST", link: "/routes/rest" },
 
           //   { text: "Sample Queries", link: "/routes/sampleQueries" },
